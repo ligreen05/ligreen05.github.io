@@ -1,0 +1,78 @@
+/* body{
+	width: 100vw;
+	height: 100vh;
+	background-color: aqua ;
+
+} */
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Rubik;
+	src: url(../fonts/Rubik-Regular.ttf);
+}
+
+.container{
+	width: 1180px;
+	height: 100vh;
+	/*background-color: greenyellow;*/
+	margin: 0 auto;
+
+}
+.header{
+	height: 40px;
+	/*background-color: lightpink;*/
+	margin-top: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header_logo{
+	display: flex;
+	align-items: center;
+}
+.header_logo-img{
+	margin-right: 11.88px;
+}
+
+.header_logo-p{
+	color: #333;
+	font-family: Rubik;
+	font-size: 20px;
+	font-weight: 500;
+
+}
+.header_search{
+	width: 320px;
+	height: 25px;
+	border: none;
+	border-bottom: 1px #333 solid;
+	margin-right: 32px;
+}
+.header_search::placeholder{
+	color: #828282;
+
+}
+.header_search:focus{
+	outline: none;
+}
+.header_search-btn{
+	background:none;
+	border: none;
+	color: #E5261E;
+	font-size: 16px;
+	font-family: Rubik;
+	font-weight: 500;
+}
+.header_login{
+	color: white;
+	font-size: 16px;
+	font-family: Rubik;
+	font-weight: 500;
+	width: 113px;
+	height: 38px;
+	border: none;
+	border-radius: 4px;
+	background: #E5261E;
+}
